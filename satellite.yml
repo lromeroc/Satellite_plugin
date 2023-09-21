@@ -1,3 +1,4 @@
+plugin: theforeman.foreman.foreman
 group_prefix: foreman_
 keyed_groups:
 - key: foreman['environment_name'] | lower | regex_replace(' ', '') | regex_replace('[^A-Za-z0-9_]', '_') | regex_replace('none', '')
@@ -16,7 +17,6 @@ keyed_groups:
   prefix: foreman_content_view_
   separator: ''
 legacy_hostvars: true
-plugin: theforeman.foreman.foreman
 validate_certs: false
 want_facts: true
 want_hostcollections: false
