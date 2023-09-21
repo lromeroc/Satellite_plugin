@@ -1,0 +1,5 @@
+plugin: redhat.satellite.foreman
+validate_certs: False
+url: https://student1-sat.rl5f2.example.opentlc.com/
+user: ansible
+password: nsxux3f5
